@@ -10,5 +10,4 @@ This is a colour scheme generator optimized for mobile devices.
 
 
 
-![Img1](screen_2.png)
-![Img2](screen_5.png)
+![Img1](screen_6.png)
