@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300;400;500&family=Lato&family=Oswald&family=Raleway:wght@300;400;500&display=swap');
+
+/* ----------------- FONT FAMILIES
+font-family: 'Inconsolata', monospace;
+font-family: 'Lato', sans-serif;
+font-family: 'Oswald', sans-serif;
+font-family: 'Raleway', sans-serif; */
+
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Inconsolata', monospace;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* --------------------------- APP NAME */
+h1 {
+  /* font-family: 'Raleway', sans-serif; */
+  font-size: 1.8rem;
+  font-weight: 400;
+}
+
+#palettes {
+  margin-bottom: 1rem;
+  border-bottom: 2px solid rgba(36, 35, 27, 0.9);
+  box-shadow: 0px 3px 0px 0px rgba(21, 152, 182, 0.5);
+}
+#palettes img {
+  width: 60px;
+  height: 60px;
+}
+
+/* --------------------------- SUB-HEADER */
+#sub-header {
+  font-weight: 500;
+}
+img {
+  width: 18px;
+  height: 18px;
+}
+
+/* --------------------------- COLOUR PALETTES */
+.colour-box {
+  height: 120px;
+  padding: 0.3rem;
+  margin-bottom: 0.3rem;
+
+  border: 2px solid rgba(36, 35, 27, 0.8);
+  border-bottom: 3px solid rgba(36, 35, 27, 0.8);
+  border-radius: 12px;
+  box-shadow: 0px 3px 3px rgba(108, 160, 172, 0.5);
+
+  transition: all 0.5s;
+}
+.colour-box:hover {
+  transform: translateY(-2%);
+  box-shadow: 0px 5px 5px rgba(43, 158, 184, 0.7);
+  cursor: pointer;
+}
+.black-text {
+  color: #222;
+}
+.white-text {
+  color: #eee;
+}
+
+/* --------------------------- GENERATE / SAVE BUTTONS */
+
+#refresh {
+  width: 45px;
+  height: 45px;
+
+  transition: all 0.3s;
+}
+#refresh:hover {
+  /* box-shadow: 0px 5px 0px rgba(211, 159, 28, 0.5); */
+  transform: translateY(-3%);
+  transform: rotate(45deg);
+  cursor: pointer;
+}
+#save {
+  background-color: transparent;
+
+  font-family: 'Inconsolata', monospace;
+  font-size: 15px;
+  /* color: rgb(241, 141, 53); */
+  color: rgb(238, 73, 36);
+
+  width: 120px;
+  height: 50px;
+
+  border: 2px solid rgba(245, 167, 58, 0.9);
+  border-bottom: 3px solid rgba(245, 167, 58, 0.9);
+  border-radius: 12px;
+
+  box-shadow: 0px 3px 3px rgba(245, 167, 58, 0.5);
+  transition: all 0.3s;
+}
+#save:hover {
+  transform: translateY(-2%);
+  cursor: pointer;
+
+  box-shadow: 0px 5px 5px rgba(240, 199, 63, 0.9);
+}
+.msg-text {
+  color: rgb(211, 44, 44);
+  font-size: 16px;
+  margin-top: 1rem;
+}
+/* ----------------------------------------------------------------- PRIMITIVES ------------------------------------------------------------- */
+/* -----------------------------------------------------------------            ------------------------------------------------------------- */
+/* -----------------------------------------------------------------            ------------------------------------------------------------- */
+
+/* ------------------------------------------------ CENTER / WIDTH  */
+.center {
+  max-width: 40rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.width-ssm {
+  max-width: 15rem;
+}
+
+.width-sm {
+  max-width: 20rem;
+}
+
+.width-smd {
+  max-width: 25rem;
+}
+
+.width-md {
+  max-width: 50rem;
+}
+
+.width-lg {
+  max-width: 60rem;
+}
+
+/* ------------------------------------------------ MARGIN STACKS  */
+.stack-sm > * + * {
+  margin-top: 0.5rem;
+}
+
+.stack-md > * + * {
+  margin-top: 1rem;
+}
+
+.stack-lg > * + * {
+  margin-top: 2rem;
+}
+
+.stack-xl > * + * {
+  margin-top: 4rem;
+}
+
+/* ------------------------------------------------ HORIZONTAL ALIGNEMENT  */
+.row {
+  display: flex;
+  gap: 1rem;
+  /* flex-wrap: wrap; */
+  align-items: center;
+}
+
+.gap-lg {
+  gap: 2rem;
+}
+
+.gap-xl {
+  gap: 4rem;
+}
+
+.justify-space-between {
+  justify-content: space-between;
+}
+
+/* ------------------------------------------------ GRID  */
+.grid {
+  display: grid;
+  /* grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr)); */
+  /* gap: 1rem; */
+  grid-template-columns: repeat(1, 1fr);
+}
+
+.column-lg {
+  grid-template-columns: repeat(auto-fit, minmax(14rem, 1fr));
+}
+
+/* ------------------------------------------------------------------------------------------------------------------------------------------ */
+/* ------------------------------------------------------------------------------------------------------------------------------------------ */

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Colour Generator" />
+    <meta
+      name="keywords"
+      content="HTML, CSS, JavaScript, Colours, Generator, Palette"
+    />
+    <meta name="author" content="Elena Marinaki" />
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="script.js"></script>
+    <title>Colour Generator</title>
+  </head>
+  <body>
+    <header>
+      <div class="center width-sm row" id="palettes">
+        <img src="images/color-wheel.svg" alt="Colour Palette" />
+        <h1>Colour Generator</h1>
+      </div>
+    </header>
+
+    <main class="center width-sm stack-lg">
+      <section>
+        <div id="sub-header" class="stack-sm">
+          A fun random colour generator :) Generate new combinations, tap a box to change its colour and save your palette!
+          <div class="row">
+            Made by @elenamarinaki
+            <a href="https://github.com/elenamarinaki" target="_blank"
+              ><img src="images/github.svg" alt="github logo"
+            /></a>
+          </div>
+        </div>
+      </section>
+      <!-- ------------------- COLOUR BOXES -->
+      <section>
+        <div class="grid">
+          <div class="colour-box"></div>
+          <div class="colour-box"></div>
+          <div class="colour-box"></div>
+        </div>
+      </section>
+
+      <!-- ------------------- GENERATE / SAVE -->
+      <section>
+        <div class="center width-ssm row justify-space-between">
+          <img
+            src="images/refresh-orange.svg"
+            alt="refresh button"
+            id="refresh"
+          />
+          <button id="save">Save colour codes</button>
+        </div>
+        <!-- <div class="center width-md" id="controls"></div> -->
+      </section>
+    </main>
+  </body>
+</html>
