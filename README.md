@@ -21,5 +21,6 @@ This is a colour scheme generator optimized for mobile devices.
 - Adjust for desktop
 
 ![Img1](app-screenshots/screen_8.png)
-![Img2](app-screenshots/screen_7.png)
+<!-- ![Img2](app-screenshots/screen_7.png) -->
+![Img3](app-screenshots/screen_9.png)
 
