@@ -19,4 +19,6 @@ This is a colour scheme generator optimized for mobile devices.
 - Shake device for random colour set
 - Adjust for desktop
 
-![Img1](screen_6.png)
+![Img1](app-screenshots/screen_8.png)
+![Img2](app-screenshots/screen_7.png)
+
