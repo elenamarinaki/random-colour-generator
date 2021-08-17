@@ -12,6 +12,7 @@ This is a colour scheme generator optimized for mobile devices.
 ### Coming next ...
 * Function that randomly generates a hex code
 * Shake device for random colour set
+* Adjust for desktop
 
 
 ![Img1](screen_6.png)
