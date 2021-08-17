@@ -147,7 +147,7 @@ generate.addEventListener('click', randomPalette);
 saveBtn.addEventListener('click', copyToClipboard);
 
 //listen to SHAKE event
-const shakeEvent = new Shake({ threshold: 15 });
+const shakeEvent = new Shake({ threshold: 10 });
 shakeEvent.start();
 
 window.addEventListener('shake', randomPalette);
