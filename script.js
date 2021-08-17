@@ -126,10 +126,12 @@ function copyToClipboard() {
 
   const selectColours = colourArr.toString();
   navigator.clipboard.writeText(selectColours).then(() => {
-    const msg = document.createElement('p');
-    msg.textContent = 'Copied! 📋';
-    msg.classList.add('msg-text');
-    saveBtn.appendChild(msg);
+    if (document.querySelector('.msg-text') === null) {
+      const msg = document.createElement('p');
+      msg.textContent = 'Copied! 📋';
+      msg.classList.add('msg-text');
+      saveBtn.appendChild(msg);
+    }
   });
 }
 
