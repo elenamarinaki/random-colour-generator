@@ -1,6 +1,7 @@
 # Mobile Colour Scheme Generator
 
 This is a colour scheme generator optimized for mobile devices.
+
 :red_square: :orange_square: :yellow_square: :green_square: :blue_square: :purple_square: :brown_square:
 
 ### Base functionality 🎨
