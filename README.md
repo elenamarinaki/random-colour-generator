@@ -17,6 +17,10 @@ This is a colour scheme generator optimized for mobile devices.
 - The `save` button has been changed. After being clicked, the inside text is being replaced, instead of adding another template.
 - Shake device for random colour set. Additional script used for this found [here](https://cdn.rawgit.com/alexgibson/shake.js/master/shake.js).
 
+### Testing 🧪
+- The application has been tested in Firefox, Chrome and Safari.
+- The `shake` function works so far in Android, but it seems not to be working in iOS. More testing needs to be done as to why this is the case.
+
 ### Coming next ...
 
 - Adjust for desktop
