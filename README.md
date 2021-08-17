@@ -15,12 +15,12 @@ This is a colour scheme generator optimized for mobile devices.
 - The `save` button has been changed. After being clicked, the inside text is being replaced, instead of adding another template.
 - Shake device for random colour set
 
-
 ### Coming next ...
 
 - Adjust for desktop
 
 ![Img1](app-screenshots/screen_8.png)
-<!-- ![Img2](app-screenshots/screen_7.png) -->
-![Img3](app-screenshots/screen_9.png)
 
+<!-- ![Img2](app-screenshots/screen_7.png) -->
+
+![Img3](app-screenshots/screen_9.jpg)
