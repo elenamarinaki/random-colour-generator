@@ -145,3 +145,13 @@ window.addEventListener('load', randomPalette);
 boxes.forEach((box) => box.addEventListener('click', changeColour));
 generate.addEventListener('click', randomPalette);
 saveBtn.addEventListener('click', copyToClipboard);
+
+//listen to SHAKE event
+const shakeEvent = new Shake({ threshold: 15 });
+shakeEvent.start();
+
+window.addEventListener('shake', randomPalette);
+
+function stopShaking() {
+  shakeEvent.stop();
+}
