@@ -9,7 +9,7 @@ This is a colour scheme generator optimized for mobile devices.
 - Each colour can be changed individually, by taping (on mobile) or clicking (on desktop) the desired colour box.
 - If the user wants to save a combination, they can press the button bottom right to copy the hex codes to the clipboard. For this function, I have used the Clipboard API.
 
-### Recent Updates
+### Recent Updates 🪄
 
 - The colours are now randomly generated through a function that generates random hex codes, and not from a pre-defined array.
 
