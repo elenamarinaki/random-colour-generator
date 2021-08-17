@@ -13,10 +13,11 @@ This is a colour scheme generator optimized for mobile devices.
 
 - The colours are now randomly generated through a function that generates random hex codes, and not from a pre-defined array.
 - The `save` button has been changed. After being clicked, the inside text is being replaced, instead of adding another template.
+- Shake device for random colour set
+
 
 ### Coming next ...
 
-- Shake device for random colour set
 - Adjust for desktop
 
 ![Img1](app-screenshots/screen_8.png)
