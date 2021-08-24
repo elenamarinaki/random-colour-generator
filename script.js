@@ -120,7 +120,20 @@ function changeColour() {
   saveBtn.textContent = 'Save colours!';
 }
 
-function copyToClipboard() {
+// function copyToClipboard() {
+//   const colouredBoxes = document.querySelectorAll('.colour-box');
+//   const colourArr = [];
+
+//   colouredBoxes.forEach((box) => {
+//     colourArr.push(box.textContent);
+//   });
+
+//   const selectColours = colourArr.toString();
+//   navigator.clipboard.writeText(selectColours).then(() => {
+//     saveBtn.textContent = 'Copied! 📋';
+//   });
+// }
+async function copyToClipboard() {
   const colouredBoxes = document.querySelectorAll('.colour-box');
   const colourArr = [];
 
@@ -129,16 +142,8 @@ function copyToClipboard() {
   });
 
   const selectColours = colourArr.toString();
-  navigator.clipboard.writeText(selectColours).then(() => {
-    //---------------TEMPLATE SOLUTION
-    // if (document.querySelector('.msg-text') === null) {
-    //   const msg = document.createElement('p');
-    //   msg.textContent = 'Copied! 📋';
-    //   msg.classList.add('msg-text');
-    //   saveBtn.appendChild(msg);
-    // }
-    saveBtn.textContent = 'Copied! 📋';
-  });
+  await navigator.clipboard.writeText(selectColours);
+  saveBtn.textContent = 'Copied! 📋';
 }
 
 window.addEventListener('load', randomPalette);
