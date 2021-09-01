@@ -184,8 +184,8 @@ img {
 .grid {
   display: grid;
   /* grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr)); */
-  /* gap: 1rem; */
-  grid-template-columns: repeat(1, 1fr);
+  gap: 0.7rem;
+  grid-template-columns: repeat(2, 1fr);
 }
 
 .column-lg {
