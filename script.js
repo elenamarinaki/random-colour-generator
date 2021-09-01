@@ -97,7 +97,7 @@ function randomPalette() {
   //---------------TEMPLATE SOLUTION
   // const msg = document.querySelector('.msg-text');
   // saveBtn.removeChild(msg);
-  saveBtn.textContent = 'Save colours!';
+  saveBtn.textContent = 'SAVE SET COLOUR CODES';
 }
 
 function changeColour() {
@@ -117,7 +117,7 @@ function changeColour() {
   //---------------TEMPLATE SOLUTION
   // const msg = document.querySelector('.msg-text');
   // saveBtn.removeChild(msg);
-  saveBtn.textContent = 'Save colours!';
+  saveBtn.textContent = 'SAVE SET COLOUR CODES';
 }
 
 // function copyToClipboard() {
@@ -143,7 +143,7 @@ async function copyToClipboard() {
 
   const selectColours = colourArr.toString();
   await navigator.clipboard.writeText(selectColours);
-  saveBtn.textContent = 'Copied! 📋';
+  saveBtn.textContent = 'COPIED TO CLIPBOARD 📋';
 }
 
 window.addEventListener('load', randomPalette);

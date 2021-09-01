@@ -8,9 +8,11 @@ font-family: 'Raleway', sans-serif; */
 
 * {
   box-sizing: border-box;
+  margin: 0;
 }
 body {
   font-family: 'Inconsolata', monospace;
+  margin-top: 0.7rem;
 }
 a {
   text-decoration: none;
@@ -70,7 +72,7 @@ img {
 }
 
 /* --------------------------- GENERATE / SAVE BUTTONS */
-
+/* 
 #refresh {
   width: 45px;
   height: 45px;
@@ -78,7 +80,6 @@ img {
   transition: all 0.3s;
 }
 #refresh:hover {
-  /* box-shadow: 0px 5px 0px rgba(211, 159, 28, 0.5); */
   transform: translateY(-3%);
   transform: rotate(45deg);
   cursor: pointer;
@@ -88,7 +89,6 @@ img {
 
   font-family: 'Inconsolata', monospace;
   font-size: 16px;
-  /* color: rgb(241, 141, 53); */
   color: rgb(238, 73, 36);
 
   width: 120px;
@@ -111,7 +111,37 @@ img {
   color: rgb(211, 44, 44);
   font-size: 16px;
   margin-top: 1rem;
+} */
+
+/* --------------------------- NAVBAR */
+.navbar {
+  /* background: repeating-linear-gradient(
+    45deg,
+    #e1e2eb,
+    #e1e2eb 10px,
+    #1e2233 10px,
+    #1e2233 20px
+  ); */
+  background-color: rgba(188, 202, 240, 0.5);
+  border-top: 2px solid black;
+  overflow: hidden;
+  position: fixed;
+  bottom: 0;
+  height: 3.5rem;
+  width: 100%;
 }
+.navbar a {
+  font-size: 24px;
+  text-align: center;
+  padding: 3rem;
+
+  transition: all 0.3s;
+}
+.navbar a:hover {
+  text-shadow: 2px 2px rgba(21, 152, 182, 0.5);
+  transform: translateY(-2%);
+}
+
 /* ----------------------------------------------------------------- PRIMITIVES ------------------------------------------------------------- */
 /* -----------------------------------------------------------------            ------------------------------------------------------------- */
 /* -----------------------------------------------------------------            ------------------------------------------------------------- */
@@ -141,6 +171,10 @@ img {
 
 .width-lg {
   max-width: 60rem;
+}
+
+.width-xl {
+  max-width: 100rem;
 }
 
 /* ------------------------------------------------ MARGIN STACKS  */
