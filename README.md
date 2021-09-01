@@ -21,13 +21,11 @@ This is a colour scheme generator optimized for mobile devices.
 - The application has been tested in Firefox, Chrome and Safari.
 - The `shake` function works so far in Android, but it seems not to be working in iOS. More testing needs to be done as to why this is the case.
 
-### Coming next ...
+### Latest Update
 
-- Adjust for desktop
+<img src='app-screenshots/screen_11.png' width=400>
 
-<img src='app-screenshots/screen_8.png' width=400>
+### Previous versions
 
-<figure>
 <img src='app-screenshots/screen_10.png' width=400>
-<figcaption>New update ✨</figcaption>
-</figure>
+<img src='app-screenshots/screen_8.png' width=400>
