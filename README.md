@@ -25,8 +25,9 @@ This is a colour scheme generator optimized for mobile devices.
 
 - Adjust for desktop
 
-![Img1](app-screenshots/screen_8.png)
+<img src='app-screenshots/screen_8.png' width=400>
 
-<!-- ![Img2](app-screenshots/screen_7.png) -->
-
-![Img3](app-screenshots/screen_9.jpg)
+<figure>
+<img src='app-screenshots/screen_10.png' width=400>
+<figcaption>New update ✨</figcaption>
+</figure>
